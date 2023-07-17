@@ -37,4 +37,7 @@ body {
 .contacts {
   text-align: center;
   margin-top: 50px;
+  background-color: #333333;
+  color: white;
+  padding: 20px;
 }
