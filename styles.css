@@ -45,24 +45,26 @@ body {
 .announcement-header {
   text-align: center;
   font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.announcement-container {
+  display: flex;
+  justify-content: center;
 }
 
 .announcement-box {
   background-color: lavender;
   padding: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  box-sizing: border-box;
-  vertical-align: top;
-  text-align: center;
+  margin: 0 10px;
+  flex-basis: 30%;
+  border-radius: 5px;
 }
 
 .announcement-box h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 
 
 .box-content {
