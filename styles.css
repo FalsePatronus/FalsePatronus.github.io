@@ -31,7 +31,11 @@ body {
   position: relative; /* Add position relative to the box */
   padding: 20px; /* Adds padding around the box content */
   margin-bottom: 20px; /* Adds margin at the bottom of each box */
-  display: inline-block; /* Displays the boxes as inline blocks */
+  display: flex; /* Use flexbox to center the content */
+  flex-direction: column; /* Stack the content vertically */
+  align-items: center; /* Center the content horizontally */
+  justify-content: center; /* Center the content vertically */
+  text-align: center; /* Center the text within the box */
   width: calc(33.33% - 20px); /* Sets the width of each box to one-third of the parent container minus the margin */
   box-sizing: border-box; /* Includes padding and border in the box's total width */
   vertical-align: top; /* Vertically aligns the boxes to the top */
