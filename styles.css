@@ -18,17 +18,17 @@ body {
 /* Styles for the buttons */
 
 .btn {
-  display: inline-block; /* Displays the buttons as inline blocks */
-  padding: 10px 20px; /* Adds padding to the buttons */
-  background-color: purple; /* Sets the background color of the buttons to purple */
-  color: white; /* Sets the text color of the buttons to white */
-  text-decoration: none; /* Removes any text decoration from the buttons */
-  border-radius: 5px; /* Adds rounded corners to the buttons */
+  display: block; /* Change display property to block */
+  position: absolute; /* Position the button absolutely */
+  bottom: 20px; /* Adjust the distance from the bottom */
+  left: 50%; /* Move the button to the horizontal center */
+  transform: translateX(-50%); /* Center the button horizontally */
 }
 
 /* Styles for the boxes */
 
 .box {
+  position: relative; /* Add position relative to the box */
   padding: 20px; /* Adds padding around the box content */
   margin-bottom: 20px; /* Adds margin at the bottom of each box */
   display: inline-block; /* Displays the boxes as inline blocks */
