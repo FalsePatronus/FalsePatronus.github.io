@@ -30,6 +30,8 @@ body {
 
 /* Styles for the boxes */
 
+/* Styles for the boxes */
+
 .box {
   background-color: lavender;
   padding: 20px;
@@ -38,44 +40,10 @@ body {
   width: calc(33.33% - 20px);
   box-sizing: border-box;
   vertical-align: top;
-  text-align: center; /* Add text-align: center to center the content within the boxes */
+  text-align: center;
 }
 
 /* Individual styles for each box */
-.announcement-header {
-  text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.announcement-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.announcement-box {
-  background-color: lavender;
-  padding: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  box-sizing: border-box;
-  vertical-align: top;
-  text-align: center;
-}
-
-.announcement-box h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-
-.box-content {
-  margin-top: 10px;
-}
-
-
 .box:nth-child(1) {
   background-color: #800080; /* Dark Violet */
   color: #ffffff; /* White */
@@ -91,10 +59,40 @@ body {
   color: #000000; /* Black */
 }
 
+/* Styles for the announcement boxes */
+
+.announcement-box {
+  background-color: lavender;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+}
+
+/* Individual styles for each announcement box */
+.announcement-box:nth-child(1) {
+  background-color: #800080; /* Dark Violet */
+  color: #ffffff; /* White */
+}
+
+.announcement-box:nth-child(2) {
+  background-color: #a35cc4; /* Medium Purple */
+  color: #ffffff; /* White */
+}
+
+.announcement-box:nth-child(3) {
+  background-color: #be93d1; /* Light Purple */
+  color: #000000; /* Black */
+}
+
 /* Media query for responsiveness */
 
 @media screen and (max-width: 768px) {
-  .box {
+  .box,
+  .announcement-box {
     width: 100%; /* Sets the width of the boxes to 100% when the screen width is 768px or less */
   }
 }
