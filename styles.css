@@ -18,27 +18,27 @@ body {
 /* Styles for the buttons */
 
 .btn {
-  display: block; /* Change display property to block */
-  position: absolute; /* Position the button absolutely */
-  bottom: 20px; /* Adjust the distance from the bottom */
-  left: 50%; /* Move the button to the horizontal center */
-  transform: translateX(-50%); /* Center the button horizontally */
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
 }
+
 
 /* Styles for the boxes */
 
 .box {
-  position: relative; /* Add position relative to the box */
-  padding: 20px; /* Adds padding around the box content */
-  margin-bottom: 20px; /* Adds margin at the bottom of each box */
-  display: flex; /* Use flexbox to center the content */
-  flex-direction: column; /* Stack the content vertically */
-  align-items: center; /* Center the content horizontally */
-  justify-content: center; /* Center the content vertically */
-  text-align: center; /* Center the text within the box */
-  width: calc(33.33% - 20px); /* Sets the width of each box to one-third of the parent container minus the margin */
-  box-sizing: border-box; /* Includes padding and border in the box's total width */
-  vertical-align: top; /* Vertically aligns the boxes to the top */
+  background-color: lavender;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center; /* Add text-align: center to center the content within the boxes */
 }
 
 /* Individual styles for each box */
@@ -47,9 +47,9 @@ body {
   padding: 20px;
   border: 1px solid violet;
   border-radius: 5px;
-  text-align: center;
   margin-bottom: 10px;
 }
+
 
 .box-content {
   margin-top: 10px;
