@@ -1,34 +1,43 @@
+/* Styles for the entire page */
+
 body {
-  background-color: lavender;
-  color: violet;
-  font-family: Arial, sans-serif;
+  background-color: lavender; /* Sets the background color of the body to lavender */
+  color: violet; /* Sets the text color to violet */
+  font-family: Arial, sans-serif; /* Sets the font family to Arial, sans-serif */
 }
+
+/* Styles for the header section */
 
 .header {
   background-color: #800080; /* Dark Violet */
   color: #ffffff; /* White */
-  padding: 20px;
-  text-align: center;
+  padding: 20px; /* Adds padding around the header content */
+  text-align: center; /* Centers the text within the header */
 }
+
+/* Styles for the buttons */
 
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: purple;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+  display: inline-block; /* Displays the buttons as inline blocks */
+  padding: 10px 20px; /* Adds padding to the buttons */
+  background-color: purple; /* Sets the background color of the buttons to purple */
+  color: white; /* Sets the text color of the buttons to white */
+  text-decoration: none; /* Removes any text decoration from the buttons */
+  border-radius: 5px; /* Adds rounded corners to the buttons */
 }
 
+/* Styles for the boxes */
 
 .box {
-  padding: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  box-sizing: border-box;
-  vertical-align: top;
+  padding: 20px; /* Adds padding around the box content */
+  margin-bottom: 20px; /* Adds margin at the bottom of each box */
+  display: inline-block; /* Displays the boxes as inline blocks */
+  width: calc(33.33% - 20px); /* Sets the width of each box to one-third of the parent container minus the margin */
+  box-sizing: border-box; /* Includes padding and border in the box's total width */
+  vertical-align: top; /* Vertically aligns the boxes to the top */
 }
+
+/* Individual styles for each box */
 
 .box:nth-child(1) {
   background-color: #800080; /* Dark Violet */
@@ -45,31 +54,35 @@ body {
   color: #000000; /* Black */
 }
 
+/* Media query for responsiveness */
 
 @media screen and (max-width: 768px) {
   .box {
-    width: 100%;
+    width: 100%; /* Sets the width of the boxes to 100% when the screen width is 768px or less */
   }
 }
 
+/* Styles for the announcements section */
+
 .announcements {
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 50px;
+  font-size: 24px; /* Sets the font size of the announcements */
+  font-weight: bold; /* Sets the font weight of the announcements to bold */
+  text-align: center; /* Centers the text within the announcements section */
+  margin-top: 50px; /* Adds margin at the top of the announcements section */
 }
 
-/* Rest of your CSS styles */
+/* Styles for the contact section */
 
 .contacts {
-  text-align: center;
-  margin-top: 50px;
-  padding: 20px;
+  text-align: center; /* Centers the text within the contact section */
+  margin-top: 50px; /* Adds margin at the top of the contact section */
+  padding: 20px; /* Adds padding around the contact content */
 }
+
+/* Styles for the contact information within the contact section */
 
 .contacts-content {
-  background-color: #333333;
-  color: white;
-  padding: 20px;
+  background-color: #333333; /* Dark Gray */
+  color: white; /* White */
+  padding: 20px; /* Adds padding around the contact information */
 }
-
