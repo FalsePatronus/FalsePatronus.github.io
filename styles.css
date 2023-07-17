@@ -42,13 +42,27 @@ body {
 }
 
 /* Individual styles for each box */
+.announcement-header {
+  text-align: center;
+  font-size: 24px;
+}
+
 .announcement-box {
   background-color: lavender;
   padding: 20px;
-  border: 1px solid violet;
-  border-radius: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  vertical-align: top;
+  text-align: center;
+}
+
+.announcement-box h3 {
+  font-size: 18px;
   margin-bottom: 10px;
 }
+
 
 
 .box-content {
