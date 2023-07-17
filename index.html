@@ -3,6 +3,40 @@
 <head>
   <title>Holy Spirit Integrated School</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+  <script>
+    // Function to handle the click event of the "here" hyperlinks
+    function handleHyperlinkClick(event) {
+      event.preventDefault(); // Prevent the default hyperlink behavior
+
+      var page = this.getAttribute("href"); // Get the subpage URL from the hyperlink's href attribute
+      loadSubpage(page); // Load the subpage content
+    }
+
+    // Function to load the subpage content
+    function loadSubpage(page) {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState === 4 && this.status === 200) {
+          var contentContainer = document.querySelector(".content");
+          contentContainer.innerHTML = this.responseText;
+        }
+      };
+      xhttp.open("GET", page, true);
+      xhttp.send();
+    }
+
+    // Function to attach the click event handler to the "here" hyperlinks
+    function attachHyperlinkClickEvent() {
+      var hyperlinks = document.querySelectorAll(".box a");
+      hyperlinks.forEach(function(hyperlink) {
+        hyperlink.addEventListener("click", handleHyperlinkClick);
+      });
+    }
+
+    // Call the function to attach the click event handler to the hyperlinks
+    attachHyperlinkClickEvent();
+  </script>
 </head>
 <body>
   <div class="header">
@@ -10,23 +44,23 @@
     <h3>Shaping Minds, Molding Character</h3>
   </div>
 
-<div class="box">
-  <h2>About the School</h2>
-  <p>This section provides information about the history, philosophy, and other details about the Holy Spirit Integrated School.</p>
-  <p>Click <a href="about.html" target="_blank">here</a> to learn more.</p>
-</div>
+  <div class="box">
+    <h2>About the School</h2>
+    <p>This section provides information about the history, philosophy, and other details about the Holy Spirit Integrated School.</p>
+    <p>Click <a href="about.html" class="subpage-link" data-page="about">here</a> to learn more.</p>
+  </div>
 
-<div class="box">
-  <h2>Admissions</h2>
-  <p>This section contains details about the enrollment procedures and requirements for the Holy Spirit Integrated School.</p>
-  <p>Click <a href="admissions.html" target="_blank">here</a> to learn more.</p>
-</div>
+  <div class="box">
+    <h2>Admissions</h2>
+    <p>This section contains details about the enrollment procedures and requirements for the Holy Spirit Integrated School.</p>
+    <p>Click <a href="admissions.html" class="subpage-link" data-page="admissions">here</a> to learn more.</p>
+  </div>
 
-<div class="box">
-  <h2>Announcements</h2>
-  <p>This section features random posts and announcements by the School Admin.</p>
-  <p>Click <a href="announcements.html" target="_blank">here</a> to view the latest announcements.</p>
-</div>
+  <div class="box">
+    <h2>Announcements</h2>
+    <p>This section features random posts and announcements by the School Admin.</p>
+    <p>Click <a href="announcements.html" class="subpage-link" data-page="announcements">here</a> to view the latest announcements.</p>
+  </div>
 
   <div class="announcements">
     <h2>Announcements</h2>
@@ -44,6 +78,5 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
 </body>
 </html>
