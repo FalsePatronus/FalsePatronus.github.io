@@ -12,15 +12,18 @@ body {
 }
 
 
-.box {
-  background-color: lavender;
-  padding: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  box-sizing: border-box;
-  vertical-align: top;
+.box:nth-child(1) {
+  background-color: #8A2BE2; /* Dark Orchid */
 }
+
+.box:nth-child(2) {
+  background-color: #9370DB; /* Medium Purple */
+}
+
+.box:nth-child(3) {
+  background-color: #BA55D3; /* Medium Orchid */
+}
+
 
 @media screen and (max-width: 768px) {
   .box {
