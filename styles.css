@@ -1,0 +1,30 @@
+body {
+  background-color: lavender;
+  color: violet;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: purple;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.box {
+  background-color: yellow;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.announcements {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contacts {
+  text-align: center;
+  margin-top: 50px;
+}
