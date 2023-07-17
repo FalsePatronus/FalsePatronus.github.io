@@ -42,6 +42,18 @@ body {
 }
 
 /* Individual styles for each box */
+.announcement-box {
+  background-color: lavender;
+  padding: 20px;
+  border: 1px solid violet;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.box-content {
+  margin-top: 10px;
+}
 
 
 .box:nth-child(1) {
