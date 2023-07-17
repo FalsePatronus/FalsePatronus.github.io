@@ -12,9 +12,19 @@ body {
 }
 
 .box {
-  background-color: yellow;
+  background-color: lavender;
   padding: 20px;
   margin-bottom: 20px;
+  display: inline-block;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
 }
 
 .announcements {
