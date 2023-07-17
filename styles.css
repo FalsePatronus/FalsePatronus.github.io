@@ -59,6 +59,12 @@ body {
   color: #000000; /* Black */
 }
 
+
+/* Styles for the announcements heading */
+.announcements-heading {
+  text-align: center;
+  margin-top: 50px;
+}
 /* Styles for the announcement boxes */
 
 .announcement-box {
