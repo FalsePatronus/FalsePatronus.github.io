@@ -43,13 +43,6 @@ body {
 
 /* Individual styles for each box */
 
-.announcement-box {
-  background-color: lavender;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid violet;
-  border-radius: 5px;
-}
 
 .box:nth-child(1) {
   background-color: #800080; /* Dark Violet */
