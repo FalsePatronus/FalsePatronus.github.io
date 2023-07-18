@@ -1,129 +1,121 @@
-/* Styles for the entire page */
+/* Global Styles */
 
 body {
-  background-color: lavender; /* Sets the background color of the body to lavender */
-  color: violet; /* Sets the text color to violet */
-  font-family: Arial, sans-serif; /* Sets the font family to Arial, sans-serif */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Styles for the header section */
+/* Section Styles */
 
-.header {
-  background-color: #800080; /* Dark Violet */
-  color: #ffffff; /* White */
-  padding: 20px; /* Adds padding around the header content */
-  text-align: center; /* Centers the text within the header */
+.colored-section {
+  background-color: #7F78D2;
+  color: #FFFFFF;
 }
 
-/* Styles for the buttons */
-
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: purple;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
+.white-section {
+  background-color: #FFFFFF;
+  color: #555555;
 }
 
+/* Navbar Styles */
 
-/* Styles for the boxes */
+.navbar {
+  background-color: #7F78D2;
+}
 
-/* Styles for the boxes */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
-.box {
-  background-color: lavender;
-  padding: 20px;
+.nav-link {
+  color: #FFFFFF !important;
+}
+
+/* Title Section Styles */
+
+.title-image {
+  width: 100%;
+}
+
+.big-heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin-top: 20px;
+}
+
+/* Features Section Styles */
+
+.icon {
+  color: #7F78D2;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Testimonials Section Styles */
+
+.testimonial-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  font-style: italic;
+}
+
+/* Press Section Styles */
+
+.press-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Pricing Section Styles */
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pricing-column {
   margin-bottom: 20px;
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  box-sizing: border-box;
-  vertical-align: top;
-  text-align: center;
 }
 
-/* Individual styles for each box */
-.box:nth-child(1) {
-  background-color: #800080; /* Dark Violet */
-  color: #ffffff; /* White */
+.price-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #7F78D2;
 }
 
-.box:nth-child(2) {
-  background-color: #a35cc4; /* Medium Purple */
-  color: #ffffff; /* White */
+/* Call to Action Section Styles */
+
+.download-button {
+  margin-top: 20px;
+  background-color: #7F78D2;
+  color: #FFFFFF;
 }
 
-.box:nth-child(3) {
-  background-color: #be93d1; /* Light Purple */
-  color: #000000; /* Black */
+/* Footer Section Styles */
+
+.social-icon {
+  margin-right: 10px;
 }
 
+/* Media Queries */
 
-/* Styles for the announcements heading */
-.announcements-heading {
-  text-align: center;
-  margin-top: 50px;
-}
-/* Styles for the announcement boxes */
-
-.announcement-box {
-  background-color: lavender;
-  padding: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-  width: calc(33.33% - 20px);
-  box-sizing: border-box;
-  vertical-align: top;
-  text-align: center;
-}
-
-/* Individual styles for each announcement box */
-.announcement-box:nth-child(1) {
-  background-color: #800080; /* Dark Violet */
-  color: #ffffff; /* White */
-}
-
-.announcement-box:nth-child(2) {
-  background-color: #a35cc4; /* Medium Purple */
-  color: #ffffff; /* White */
-}
-
-.announcement-box:nth-child(3) {
-  background-color: #be93d1; /* Light Purple */
-  color: #000000; /* Black */
-}
-
-/* Media query for responsiveness */
-
-@media screen and (max-width: 768px) {
-  .box,
-  .announcement-box {
-    width: 100%; /* Sets the width of the boxes to 100% when the screen width is 768px or less */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #7F78D2;
   }
-}
 
-/* Styles for the announcements section */
-
-.announcements {
-  font-size: 24px; /* Sets the font size of the announcements */
-  font-weight: bold; /* Sets the font weight of the announcements to bold */
-  text-align: center; /* Centers the text within the announcements section */
-  margin-top: 50px; /* Adds margin at the top of the announcements section */
-}
-
-/* Styles for the contact section */
-
-.contacts {
-  text-align: center; /* Centers the text within the contact section */
-  margin-top: 50px; /* Adds margin at the top of the contact section */
-  padding: 20px; /* Adds padding around the contact content */
-}
-
-/* Styles for the contact information within the contact section */
-
-.contacts-content {
-  background-color: #333333; /* Dark Gray */
-  color: white; /* White */
-  padding: 20px; /* Adds padding around the contact information */
+  .nav-link {
+    color: #FFFFFF !important;
+  }
 }
