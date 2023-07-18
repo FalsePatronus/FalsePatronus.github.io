@@ -1,121 +1,121 @@
 /* Global Styles */
 
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Section Styles */
 
 .colored-section {
-  background-color: #7F78D2;
-  color: #FFFFFF;
+    background-color: #7F78D2;
+    color: #FFFFFF;
 }
 
 .white-section {
-  background-color: #FFFFFF;
-  color: #555555;
+    background-color: #FFFFFF;
+    color: #555555;
 }
 
 /* Navbar Styles */
 
 .navbar {
-  background-color: #7F78D2;
+    background-color: #7F78D2;
 }
 
 .navbar-brand {
-  font-weight: bold;
-  font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .nav-link {
-  color: #FFFFFF !important;
+    color: #FFFFFF !important;
 }
 
 /* Title Section Styles */
 
 .title-image {
-  width: 100%;
+    width: 100%;
 }
 
 .big-heading {
-  font-size: 3rem;
-  font-weight: bold;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .download-button {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 /* Features Section Styles */
 
 .icon {
-  color: #7F78D2;
+    color: #7F78D2;
 }
 
 .feature-title {
-  font-size: 1.5rem;
-  font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 /* Testimonials Section Styles */
 
 .testimonial-image {
-  width: 200px;
-  border-radius: 50%;
+    width: 200px;
+    border-radius: 50%;
 }
 
 .testimonial-text {
-  font-style: italic;
+    font-style: italic;
 }
 
 /* Press Section Styles */
 
 .press-logo {
-  height: 50px;
-  margin-right: 10px;
+    height: 50px;
+    margin-right: 10px;
 }
 
 /* Pricing Section Styles */
 
 .section-heading {
-  font-size: 2rem;
-  font-weight: bold;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .pricing-column {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .price-text {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #7F78D2;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7F78D2;
 }
 
 /* Call to Action Section Styles */
 
 .download-button {
-  margin-top: 20px;
-  background-color: #7F78D2;
-  color: #FFFFFF;
+    margin-top: 20px;
+    background-color: #7F78D2;
+    color: #FFFFFF;
 }
 
 /* Footer Section Styles */
 
 .social-icon {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 /* Media Queries */
 
 @media (max-width: 768px) {
-  .navbar-collapse {
-    background-color: #7F78D2;
-  }
+    .navbar-collapse {
+        background-color: #7F78D2;
+    }
 
-  .nav-link {
-    color: #FFFFFF !important;
-  }
+    .nav-link {
+        color: #FFFFFF !important;
+    }
 }
