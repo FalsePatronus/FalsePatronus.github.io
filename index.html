@@ -1,66 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Holy Spirit Integrated School</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <div class="header">
-    <h1>Holy Spirit Integrated School</h1>
-    <h3>Shaping Minds, Molding Character</h3>
-  </div>
 
-  <div class="box">
-    <h2>About the School</h2>
-    <p>This section provides information about the history, philosophy, and other details about the Holy Spirit Integrated School.</p>
-    <button onclick="location.href='about.html'" class="btn">Click here to learn more</button>
-  </div>
+  <section class="colored-section" id="title">
 
-  <div class="box">
-    <h2>Admissions</h2>
-    <p>This section contains details about the enrollment procedures and requirements for the Holy Spirit Integrated School.</p>
-    <button onclick="location.href='admissions.html'" class="btn">Click here to learn more</button>
-  </div>
+    <div class="container-fluid">
 
-  <div class="box">
-    <h2>Announcements</h2>
-    <p>This section features random posts and announcements by the School Admin.</p>
-    <button onclick="location.href='announcements.html'" class="btn">Click here to view the latest announcements</button>
-  </div>
+      <!-- Nav Bar -->
 
-  <h2 class="announcement-heading">Announcements</h2>
-  <div class="announcement-container">
-    <div class="box">
-      <h3>Sample Announcement 1</h3>
-      <p>Content of the first announcement...</p>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#">Holy Spirit Integrated School</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">Providing Quality Education in the Philippines.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="school-building">
+        </div>
+
+      </div>
+
     </div>
-    <div class="box">
-      <h3>Sample Announcement 2</h3>
-      <p>Content of the second announcement...</p>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Quality Education</h3>
+          <p>Providing excellent education programs to students.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Dedicated Faculty</h3>
+          <p>Our team of dedicated teachers ensures student success.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Holistic Development</h3>
+          <p>Focus on nurturing students' academic and personal growth.</p>
+        </div>
+      </div>
+
+
     </div>
-    <div class="box">
-      <h3>Sample Announcement 3</h3>
-      <p>Content of the third announcement...</p>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Holy Spirit Integrated School has transformed my child's education. I'm impressed with the dedication and quality of teaching. Highly recommended.</h2>
+          <img class="testimonial-image" src="images/student1.jpg" alt="student-profile">
+          <em>John Smith, Parent</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">As a former student of Holy Spirit Integrated School, I can confidently say that it has prepared me well for the challenges of higher education. I'm grateful for the opportunities I had here.</h2>
+          <img class="testimonial-image" src="images/student2.jpg" alt="student-profile">
+          <em>Jane Doe, Alumna</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
-  </div>
+
+  </section>
 
 
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/news1.png" alt="news-logo">
+    <img class="press-logo" src="images/news2.png" alt="news-logo">
+    <img class="press-logo" src="images/news3.png" alt="news-logo">
+    <img class="press-logo" src="images/news4.png" alt="news-logo">
+
+  </section>
 
 
+  <!-- Pricing -->
 
+  <section class="white-section" id="pricing">
 
+    <h2 class="section-heading">Choose the Right Program for Your Child</h2>
+    <p>We offer comprehensive educational programs tailored to your child's needs.</p>
 
+    <div class="row">
 
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Elementary</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>Grades 1-6</p>
+            <p>Subject-based Curriculum</p>
+            <p>Extracurricular Activities</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
 
-  <div class="contacts">
-    <h2>Contact Information</h2>
-    <div class="contacts-content">
-      <p>Phone: 123-456-7890</p>
-      <p>Email: info@holyspirit.edu</p>
-      <p>Address: 123 Main Street, City, State</p>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Junior High School</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Grades 7-10</p>
+            <p>Specialized Tracks</p>
+            <p>Co-curricular Programs</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Senior High School</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Grades 11-12</p>
+            <p>College Preparatory Program</p>
+            <p>Enrichment Activities</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Enroll Your Child in Holy Spirit Integrated School Today.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>&copy; 2023 Holy Spirit Integrated School</p>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
