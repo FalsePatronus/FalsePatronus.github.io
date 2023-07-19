@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holy Spirit Integrated School</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <section class="colored-section" id="title">
-        <div class="container-fluid">
+        <div class="container">
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#">Holy Spirit Integrated School</a>
@@ -46,7 +47,7 @@
     </section>
     <!-- Features -->
     <section class="white-section" id="features">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="feature-box col-lg-4">
                     <i class="icon fas fa-check-circle fa-4x"></i>
@@ -68,14 +69,14 @@
     </section>
     <!-- Testimonials -->
     <section class="colored-section" id="testimonials">
-        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active container-fluid">
+                <div class="carousel-item active container">
                     <h2 class="testimonial-text">Holy Spirit Integrated School has transformed my child's education. I'm impressed with the dedication and quality of teaching. Highly recommended.</h2>
                     <img class="testimonial-image" src="images/student1.jpg" alt="student-profile">
                     <em>John Smith, Parent</em>
                 </div>
-                <div class="carousel-item container-fluid">
+                <div class="carousel-item container">
                     <h2 class="testimonial-text">As a former student of Holy Spirit Integrated School, I can confidently say that it has prepared me well for the challenges of higher education. I'm grateful for the opportunities I had here.</h2>
                     <img class="testimonial-image" src="images/student2.jpg" alt="student-profile">
                     <em>Jane Doe, Alumna</em>
@@ -91,55 +92,59 @@
     </section>
     <!-- Press -->
     <section class="colored-section" id="press">
-        <img class="press-logo" src="images/news1.png" alt="news-logo">
-        <img class="press-logo" src="images/news2.png" alt="news-logo">
-        <img class="press-logo" src="images/news3.png" alt="news-logo">
-        <img class="press-logo" src="images/news4.png" alt="news-logo">
+        <div class="container">
+            <img class="press-logo" src="images/news1.png" alt="news-logo">
+            <img class="press-logo" src="images/news2.png" alt="news-logo">
+            <img class="press-logo" src="images/news3.png" alt="news-logo">
+            <img class="press-logo" src="images/news4.png" alt="news-logo">
+        </div>
     </section>
     <!-- Pricing -->
     <section class="white-section" id="pricing">
-        <h2 class="section-heading">Choose the Right Program for Your Child</h2>
-        <p>We offer comprehensive educational programs tailored to your child's needs.</p>
-        <div class="row">
-            <div class="pricing-column col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Elementary</h3>
-                    </div>
-                    <div class="card-body">
-                        <h2 class="price-text">Free</h2>
-                        <p>Grades 1-6</p>
-                        <p>Subject-based Curriculum</p>
-                        <p>Extracurricular Activities</p>
-                        <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
-                    </div>
-                </div>
-            </div>
-            <div class="pricing-column col-lg-4 col-md-6">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Junior High School</h3>
-                    </div>
-                    <div class="card-body">
-                        <h2 class="price-text">$49 / mo</h2>
-                        <p>Grades 7-10</p>
-                        <p>Specialized Tracks</p>
-                        <p>Co-curricular Programs</p>
-                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+        <div class="container">
+            <h2 class="section-heading">Choose the Right Program for Your Child</h2>
+            <p>We offer comprehensive educational programs tailored to your child's needs.</p>
+            <div class="row">
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Elementary</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">Free</h2>
+                            <p>Grades 1-6</p>
+                            <p>Subject-based Curriculum</p>
+                            <p>Extracurricular Activities</p>
+                            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="pricing-column col-lg-4">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Senior High School</h3>
+                <div class="pricing-column col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Junior High School</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">$49 / mo</h2>
+                            <p>Grades 7-10</p>
+                            <p>Specialized Tracks</p>
+                            <p>Co-curricular Programs</p>
+                            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                        </div>
                     </div>
-                    <div class="card-body">
-                        <h2 class="price-text">$99 / mo</h2>
-                        <p>Grades 11-12</p>
-                        <p>College Preparatory Program</p>
-                        <p>Enrichment Activities</p>
-                        <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                </div>
+                <div class="pricing-column col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Senior High School</h3>
+                        </div>
+                        <div class="card-body">
+                            <h2 class="price-text">$99 / mo</h2>
+                            <p>Grades 11-12</p>
+                            <p>College Preparatory Program</p>
+                            <p>Enrichment Activities</p>
+                            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -147,7 +152,7 @@
     </section>
     <!-- Call to Action -->
     <section class="colored-section" id="cta">
-        <div class="container-fluid">
+        <div class="container">
             <h3 class="big-heading">Enroll Your Child in Holy Spirit Integrated School Today.</h3>
             <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
             <button class="download-button btn btn-lg btn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
@@ -155,7 +160,7 @@
     </section>
     <!-- Footer -->
     <footer class="white-section" id="footer">
-        <div class="container-fluid">
+        <div class="container">
             <i class="social-icon fab fa-facebook-f"></i>
             <i class="social-icon fab fa-twitter"></i>
             <i class="social-icon fab fa-instagram"></i>
@@ -163,6 +168,8 @@
             <p>&copy; 2023 Holy Spirit Integrated School</p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 
