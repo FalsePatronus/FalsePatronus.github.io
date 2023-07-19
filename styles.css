@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: "Olde English", Arial, sans-serif;
 }
 
@@ -12,7 +12,7 @@ h1, h2, h3 {
 
 .colored-section {
     padding: 80px 0;
-    background: linear-gradient(to bottom, #4c4c4c, #000000);
+    background: linear-gradient(to bottom, #bc13fe, #7f00ff);
     color: #fff;
 }
 
