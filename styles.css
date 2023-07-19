@@ -12,8 +12,7 @@ h1 {
 
 .colored-section {
     padding: 80px 0;
-    background-color: #7f00ff;
-    background-image: linear-gradient(to bottom, #bc13fe, #7f00ff);
+    background: linear-gradient(to bottom, #e252f9, #8105d8);
     color: #fff;
 }
 
