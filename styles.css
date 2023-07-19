@@ -9,14 +9,36 @@ body {
 /* Section Styles */
 
 .colored-section {
-    background-color: #7F78D2;
+    background: linear-gradient(135deg, #6C63B6, #9F93D5);
     color: #FFFFFF;
 }
+
 
 .white-section {
     background-color: #FFFFFF;
     color: #555555;
+    position: relative;
 }
+
+.white-section::before,
+.white-section::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background-color: #7F78D2;
+    border-radius: 50%;
+}
+
+.white-section::before {
+    top: -4px;
+}
+
+.white-section::after {
+    bottom: -4px;
+}
+
 
 /* Navbar Styles */
 
